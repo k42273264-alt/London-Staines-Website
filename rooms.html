@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Staines Hotel by Sunday - A luxurious city hotel next to the River Thames, offering elegant rooms, modern British dining, and historic event spaces.">
+  <meta name="keywords" content="Staines Hotel by Sunday, luxury hotel Staines, River Thames, weddings Staines, meetings Staines, dog-friendly hotel">
+  <meta name="author" content="Staines Hotel by Sunday">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Staines Hotel by Sunday">
+  <meta property="og:description" content="A luxurious city hotel next to the River Thames, offering elegant rooms, modern British dining, and historic event spaces.">
+  <meta property="og:image" content="https://staineshotel.booksundays.com/images/exterior/riverside-view.jpg">
+  <meta property="og:url" content="https://staineshotel.booksundays.com/">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Staines Hotel by Sunday">
+  <meta name="twitter:description" content="A luxurious city hotel next to the River Thames, offering elegant rooms, modern British dining, and historic event spaces.">
+  <meta name="twitter:image" content="https://staineshotel.booksundays.com/images/exterior/riverside-view.jpg">
+  <title>Staines Hotel by Sunday</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="rooms.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <!-- Structured Data (JSON-LD) for Hotel -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Staines Hotel by Sunday",
+      "description": "A luxurious city hotel next to the River Thames, offering elegant rooms, modern British dining, and historic event spaces like the Conservatory.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thames Street",
+        "addressLocality": "Staines",
+        "addressRegion": "Surrey",
+        "postalCode": "TW18 4SJ",
+        "addressCountry": "UK"
+      },
+      "telephone": "+441784334800",
+      "email": "reception.staines@hotelssunday.com",
+      "logo": "https://staineshotel.booksundays.com/images/output-onlinepngtools.png",
+      "url": "https://staineshotel.booksundays.com/",
+      "image": "https://staineshotel.booksundays.com/images/riverside-view.jpg",
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Restaurant",
+          "value": "Modern British Restaurant"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Event Venues",
+          "value": "Conservatory, Private Dining Room"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet-Friendly",
+          "value": "Dog-friendly rooms"
+        }
+      ],
+      "petsAllowed": true
+    }
+  </script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/output-onlinepngtools.png" alt="Staines Hotel by Sunday Logo" loading="lazy"></a>
+      </div>
+      <div class="nav-container">
+        <nav class="main-navigation" aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li class="has-dropdown">
+              <a href="#about" aria-haspopup="true" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-label="About submenu">
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="pet-policy.html">Pet Policy</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="explore.html">Explore Staines</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="#stay" aria-haspopup="true" aria-expanded="false">Stay</a>
+              <ul class="dropdown-menu" aria-label="Stay submenu">
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <!-- <li><a href="spa.html">Spa & Wellness</a></li> -->
+              </ul>
+            </li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="meetings.html">Meetings & Events</a></li>
+            <!-- <li><a href="weddings.html">Weddings</a></li> -->
+            <li><a href="christmas.html">Christmas</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-book">
+        <a href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENSIS001&property_id=1e93d85f-1e51-455c-93ec-ce82c4743120&url=https://www.oyorooms.com/gb/291294/" class="btn-book" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Now', 'value': 1 });">Book Now</a>
+      </div>
+      <div class="mobile-menu-toggle" role="button" aria-label="Toggle navigation" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section" style="background-image: url('images/Room\ 2.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Rooms & Suites</h1>
+      <p>Elegant Retreats by the Thames</p>
+      <a href="#rooms" class="btn-primary" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Explore Rooms', 'value': 1 });">Explore Rooms</a>
+    </div>
+  </section>
+
+  <!-- Overview Section -->
+  <section class="overview-section" id="overview">
+    <div class="section-label">Accommodation</div>
+    <div class="overview-container">
+      <div class="overview-divider"></div>
+      <h2>Luxurious Comfort</h2>
+      <p data-animate>Choose from 88 spacious rooms and suites, each designed with Sunday’s signature style and thoughtful amenities like plush bedding, tea & coffee facilities, iron & ironing board, hair dryer, Nespresso machine and MiniBar (Privilege Rooms only). Perfect for leisure or business.</p>
+      <div class="overview-divider"></div>
+    </div>
+  </section>
+
+  <!-- Room Types Section -->
+  <section class="rooms-section" id="rooms">
+    <div class="section-label">Room Types</div>
+    <h2>Choose Your Stay</h2>
+    <div class="rooms-filter">
+      <button class="filter-btn active" data-filter="all" aria-selected="true">All</button>
+      <button class="filter-btn" data-filter="standard" aria-selected="false">Standard</button>
+      <button class="filter-btn" data-filter="classic" aria-selected="false">Classic</button>
+      <button class="filter-btn" data-filter="privilege" aria-selected="false">Privilege</button>
+      <button class="filter-btn" data-filter="family" aria-selected="false">Family</button>
+    </div>
+    <div class="rooms-container">
+      <div class="room-card" data-type="standard" data-animate>
+        <img src="images/7P7A7095-Edit.jpg" alt="Standard Room" loading="lazy">
+        <h3>Standard Rooms</h3>
+        <p>Stylish and comfortable, perfect for short stays.</p>
+        <p>Sunday Signature Touches: plush bedding, tea & coffee facilities, iron & ironing board, hair dryer.</p>
+        <button class="details-btn" data-room="standard-room" aria-label="View details for Standard Room">Details</button>
+      </div>
+      <div class="room-card" data-type="classic" data-animate>
+        <img src="images/7P7A6591-Edit.jpg" alt="Classic Room with Riverside View" loading="lazy">
+        <h3>Classic Room with Riverside View</h3>
+        <p>Enjoy calming views of the Thames from your room.</p>
+        <p>Sunday Signature Touches: plush bedding, tea & coffee facilities, iron & ironing board, hair dryer.</p>
+        <button class="details-btn" data-room="classic-room" aria-label="View details for Classic Room with Riverside View">Details</button>
+      </div>
+      <div class="room-card" data-type="privilege" data-animate>
+        <img src="images/7P7A7459-Edit.jpg" alt="Privilege Rooms" loading="lazy">
+        <h3>Privilege Rooms</h3>
+        <p>More space and refined finishes for an elevated stay.</p>
+        <p>Sunday Signature Touches: plush bedding, tea & coffee facilities, iron & ironing board, hair dryer, Nespresso Machine and MiniBar.</p>
+        <button class="details-btn" data-room="privilege-room" aria-label="View details for Privilege Rooms">Details</button>
+      </div>
+      <div class="room-card" data-type="family" data-animate>
+        <img src="images/7P7A6886-Edit.jpg" alt="Family Rooms" loading="lazy">
+        <h3>Family Rooms</h3>
+        <p>Designed for comfort and convenience with extra space.</p>
+        <p>Sunday Signature Touches: plush bedding, tea & coffee facilities, iron & ironing board, hair dryer.</p>
+        <button class="details-btn" data-room="family-room" aria-label="View details for Family Rooms">Details</button>
+      </div>
+    </div>
+    <!-- Room Details Modal -->
+    <div class="modal" id="roomModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      <div class="modal-content">
+        <span class="modal-close" aria-label="Close modal">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <div id="modalDetails"></div>
+        <a href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENSIS001&property_id=1e93d85f-1e51-455c-93ec-ce82c4743120&url=https://www.oyorooms.com/gb/291294/" class="btn-primary" target="_blank" rel="noopener" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book This Room', 'value': 1 });">Book This Room</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <h2>Book Your Stay</h2>
+      <p>Experience luxury by the Thames at Staines Hotel by Sunday.</p>
+      <p><a href="mailto:reception.staines@hotelssunday.com">reception.staines@hotelssunday.com</a> | <a href="tel:+441784334800">+44 01784 334800</a></p>
+      <a href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENSIS001&property_id=1e93d85f-1e51-455c-93ec-ce82c4743120&url=https://www.oyorooms.com/gb/291294/" class="btn-primary" target="_blank" rel="noopener" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Now', 'value': 1 });">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <a href="contact.html" class="footer-button">Contact Us</a>
+        <address>
+          Staines Hotel by Sunday<br>
+          Thames Street, Staines, Surrey, TW18 4SJ<br>
+          <a href="tel:+441784334800">+44 01784 334800</a><br>
+          <a href="mailto:reception.staines@hotelssunday.com">reception.staines@hotelssunday.com</a><br>
+          <a href="https://www.instagram.com/thesundayhotels/">Instagram: thesundayhotels</a><br>
+          <a href="https://www.facebook.com/StainesHotelbySunday">Facebook: Staines Hotel by Sunday</a>
+        </address>
+      </div>
+      <div class="footer-column quick-links-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <!-- <li><a href="weddings.html">Weddings</a></li> -->
+          <li><a href="meetings.html">Meetings & Events</a></li>
+          <li><a href="dining.html">Dining</a></li>
+          <li><a href="christmas.html">Christmas</a></li>
+          <li><a href="explore.html">Explore Staines</a></li>
+        </ul>
+      </div>
+      <div class="footer-column newsletter">
+        <h4>Newsletter</h4>
+        <form action="https://formsubmit.co/sales.staines@hotelssunday.com" method="POST" class="newsletter-form">
+          <input type="email" name="email" placeholder="Your email address" required aria-label="Your Email">
+          <button class="btn" type="submit" aria-label="Subscribe to Newsletter">Subscribe</button>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Newsletter Signup!">
+          <input type="hidden" name="_next" value="https://staineshotel.booksundays.com/newsletter?subscribed=true">
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Staines Hotel by Sunday. All rights reserved.</p>
+      <ul class="footer-legal">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="rooms.js"></script>
+</body>
+</html>
