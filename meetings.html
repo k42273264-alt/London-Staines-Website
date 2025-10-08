@@ -85,7 +85,7 @@
   </div>
 
   <!-- Header -->
-  <header class="site-header">
+   <header class="site-header">
     <div class="header-container">
       <div class="logo">
         <a href="index.html"><img src="images/output-onlinepngtools.png" alt="Staines Hotel by Sunday Logo" loading="lazy"></a>
@@ -98,21 +98,27 @@
               <ul class="dropdown-menu" aria-label="About submenu">
                 <li><a href="about.html">Our Story</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <!-- <li><a href="pet-policy.html">Pet Policy</a></li> -->
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="explore.html">Explore Staines</a></li>
               </ul>
             </li>
-            <li class="has-dropdown">
+            <li><a href="rooms.html">Rooms & Suites</a></li>
+            <!-- <li class="has-dropdown">
               <a href="#stay" aria-haspopup="true" aria-expanded="false">Stay</a>
               <ul class="dropdown-menu" aria-label="Stay submenu">
                 <li><a href="rooms.html">Rooms & Suites</a></li>
-              </ul>
+              </ul> -->
             </li>
             <li><a href="dining.html">Dining</a></li>
             <li><a href="meetings.html">Meetings & Events</a></li>
             <!-- <li><a href="weddings.html">Weddings</a></li> -->
-            <li><a href="christmas.html">Christmas</a></li>
+            
+            <li class="has-dropdown">
+              <a href="#Promotions" aria-haspopup="true" aria-expanded="false">Promotions and Offers</a>
+              <ul class="dropdown-menu" aria-label="Stay submenu">
+                <li><a href="christmas.html">Christmas</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
@@ -124,7 +130,7 @@
       </div>
     </div>
   </header>
-
+  
   <!-- Hero Section -->
   <section id="hero" class="hero-section" style="background-image: url('images/Meeting\ Room\ 2.jpg');">
     <div class="hero-overlay"></div>
@@ -147,22 +153,41 @@
   </section>
 
   <!-- Event Spaces Section -->
-  <section class="event-spaces-section" id="event-spaces">
-    <div class="section-label">Our Venues</div>
-    <h2>Flexible Event Spaces</h2>
-    <div class="event-spaces-container">
-      <div class="space-card" data-animate>
+ <section class="event-spaces-section" id="event-spaces">
+  <div class="section-label">Our Venues</div>
+  <h2>Flexible Event Spaces</h2>
+  <br>
+
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <div class="space-card">
         <img src="images/Meeting Room 1.jpg" alt="Conservatory" loading="lazy">
         <h3>Conservatory</h3>
         <p>Flooded with natural light, river views, and access to an outdoor patio, ideal for corporate gatherings or private celebrations.</p>
       </div>
+
+      <div class="space-card">
+        <img src="images/meeting/DSC03121_2_3 copy.jpg" alt="Riverside Hall" loading="lazy">
+        <h3>Riverside Hall</h3>
+        <p>Spacious venue overlooking the river, perfect for weddings, conferences, and banquets.</p>
+      </div>
+
+      <div class="space-card">
+        <img src="images/meeting/DSC03124_5_6 copy.jpg" alt="Executive Meeting Room" loading="lazy">
+        <h3>Executive Meeting Room</h3>
+        <p>Designed for professional discussions and presentations, equipped with modern AV facilities and comfortable seating for productive meetings.</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
   <!-- Hotel Amenities Section -->
   <section class="amenities-section" id="amenities">
     <div class="section-label">Hotel Amenities</div>
     <h2>Enhance Your Event</h2>
+    <br>
     <div class="amenities-container">
       <div class="amenity-card" data-animate>
         <i class="fas fa-bed fa-2x"></i>

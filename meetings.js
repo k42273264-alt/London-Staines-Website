@@ -127,6 +127,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+
+  const track = document.querySelector('.carousel-track');
+  const cards = document.querySelectorAll('.space-card');
+  let currentIndex = 0;
+  const totalCards = cards.length;
+
+  function showNextCard() {
+    currentIndex = (currentIndex + 1) % totalCards; // loop back to first
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+
+  setInterval(showNextCard, 8000); // change every 8 seconds
+  
   // Table Row Highlighting
   const initTableHighlight = () => {
     const rows = document.querySelectorAll('.capacity-table tbody tr');

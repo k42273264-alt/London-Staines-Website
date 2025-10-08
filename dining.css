@@ -3,8 +3,8 @@
 /* Hero Section */
 .hero-section {
   position: relative;
-  height: 80vh;
-  max-height: 600px;
+  height: 90vh;
+  /* max-height: 600px; */
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -217,7 +217,7 @@
 
 .gallery-image {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   display: block;
 }
@@ -374,7 +374,7 @@
 
 .bar-section .package-card img {
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
