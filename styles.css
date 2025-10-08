@@ -278,14 +278,21 @@ body {
 }
 
 /* Hero Slider */
-.hero-slider {
+/* .hero-slider {
   position: relative;
   height: calc(100vh - 60px);
   max-height: 650px;
   margin-top: 70px;
   overflow: hidden;
-}
+} */
 
+.hero-slider {
+  position: relative;
+  height: 100vh; 
+  max-height: none; 
+  margin-top: 70px;
+  overflow: hidden;
+}
 .slider-container {
   height: 100%;
   width: 100%;
